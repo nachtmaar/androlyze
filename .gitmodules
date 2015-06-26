@@ -1,0 +1,6 @@
+[submodule "google-play-crawler"]
+	path = google-play-crawler
+	url = https://github.com/Akdeniz/google-play-crawler.git
+[submodule "androguard"]
+	path = androguard
+	url = https://github.com/androguard/androguard.git

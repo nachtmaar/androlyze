@@ -1,0 +1,43 @@
+{
+	"scripts" : {
+		"builtin" : [
+			"scripts_builtin/ChainedApkInfos.py",
+			"scripts_builtin/manifest/components/PublicContentProviders_Manifest.py",
+			"scripts_builtin//DVM.py",
+			"scripts_builtin/AnalyzeFrameworks.py",
+			"scripts_builtin/ApkInfo.py",
+			"scripts_builtin/ASTifyMethodsText.py",
+			"scripts_builtin/ClassDetails.py",
+			"scripts_builtin/ClassInfos.py",
+			"scripts_builtin/ClassListing.py",
+			"scripts_builtin/CodePermissions.py",
+			"scripts_builtin/CryptoECBMode.py",
+			"scripts_builtin/DecompileClasses.py",
+			"scripts_builtin/DecompileClassesText.py",
+			"scripts_builtin/DecompileMethods.py",
+			"scripts_builtin/DecompileMethodsText.py",
+			"scripts_builtin/GVMAnalysisExample.py",
+			"scripts_builtin/HTTPBasicAuth.py",
+			"scripts_builtin/manifest/components/Activities.py",
+			"scripts_builtin/manifest/components/BroadcastReceivers.py",
+			"scripts_builtin/manifest/components/ContentProviders.py",
+			"scripts_builtin/manifest/components/Intents.py",
+			"scripts_builtin/manifest/components/PublicContentProviders.py",
+			"scripts_builtin/manifest/components/Services.py",
+			"scripts_builtin/manifest/Files.py",
+			"scripts_builtin/manifest/Libs.py",
+			"scripts_builtin/manifest/Manifest.py",
+			"scripts_builtin/manifest/Permissions.py",
+			"scripts_builtin/SharedPreferences.py",
+			"scripts_builtin/SSL.py",
+			"scripts_builtin/WebView.py"
+		],        
+		"manifest" : [
+			"scripts_builtin/ChainedApkInfos.py"
+		],
+		"dvm" : [ 
+			"scripts_builtin/DVM.py"
+		],  
+		"load" : "builtin"
+	}
+}
