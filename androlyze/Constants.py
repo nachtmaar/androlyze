@@ -10,7 +10,7 @@ Project constants
 
 ''' Project name '''
 PROJECT_NAME = "AndroLyze"
-PROJECT_COPYRIGHT = u"Copyright (c) 2015 Nils Tobias Schmidt and Lars Baumgärtner, {schmidt89,lbaumgaertner}@informatik.uni-marburg.de, University of Marburg, Department of Computer Science, Distributed Systems Group"
+PROJECT_COPYRIGHT = u"Copyright (c) 2015 Nils Tobias Schmidt and Lars Baumgärtner, {schmidt89,lbaumgaertner} at informatik.uni-marburg.de, University of Marburg, Department of Computer Science, Distributed Systems Group"
 PROJECT_VERSION = 1.0
 PROJECT_LICENSE = "MIT"
 

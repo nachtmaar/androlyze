@@ -12,8 +12,6 @@ See Also:
 http://celery.readthedocs.org/en/latest/configuration.html
 '''
 
-from __future__ import absolute_import
-
 from kombu.entity import Queue
 
 from androlyze.celery.CeleryConstants import CELERY_RETRY_INFINITE, \

@@ -7,10 +7,6 @@ MAINTAINER Nils Schmidt <schmidt89@informatik.uni-marburg.de>
 
 ENV USER worker
 
-# TODO: DELETE
-# password for androlyze
-ENV USER_PW foo
-
 # replace users home directory
 ENV HOME /home/$USER/
 ENV WORK_DIR $HOME/androlyze/
@@ -36,7 +32,7 @@ RUN mkdir -p $WORK_DIR
 ADD . $WORK_DIR
 
 # create non-root user
-RUN useradd -p $USER_PW $USER --home-dir $HOME
+RUN adduser -q --disabled-password --home /home/worker --gecos "" $USER
 
 # set permissions for non-root user
 RUN mkdir $DIR_CONFIGS
