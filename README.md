@@ -52,7 +52,8 @@ AndroLyze is licensed under the
 Documentation
 -------------
 
-The [documentation](https://github.com/nachtmaar/androlyzedoc) is
-publicly avaiable and opensource too. Feel free to contribute! Edit the
-docs on github, commit it and it will be automatically built by
-readthedocs!
+The documentation is hosted at
+[readthedocs.org](https://androlyze.readthedocs.org) and opensource
+available at [github](https://github.com/nachtmaar/androlyzedoc). Feel
+free to contribute! Edit the docs on github, commit it and it will be
+automatically built by readthedocs!
